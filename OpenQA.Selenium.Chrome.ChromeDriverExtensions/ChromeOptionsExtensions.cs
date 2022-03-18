@@ -57,7 +57,7 @@ chrome.webRequest.onAuthRequired.addListener(
         ""webRequestBlocking""
     ],
     ""background"": {
-        ""scripts"": [""background.js""]
+        ""service_worker"": [""background.js""]
 	},
     ""minimum_chrome_version"":""22.0.0""
 }";
